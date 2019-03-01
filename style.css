@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+}
+
+nav .navbar-brand {
+    color: white !important;
+    font-size: 40px;
+    }
+
+nav .navbar-nav li a{
+    color: white !important;
+    }
+
+nav .navbar-nav li a:hover{
+    color: lightpink !important;
+    }    
+nav .navbar-nav li div a{
+    color: black !important;
+    }    
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/simran/Music proj/images/music1.jpg");
+    min-height: 580px;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 100px;
+    }  
+
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+     
+
+@media (max-width:768px) {
+        h1 {
+            font-size: 20vw;
+        }
+        .hero-text{
+            left: 1%;
+            right: 1%;
+            top: 25%;
+            transform: translate(0);
+        }
+        .hero-image {
+            background-image: url('/home/simran/Music proj/images/music1.jpg')
+        }
